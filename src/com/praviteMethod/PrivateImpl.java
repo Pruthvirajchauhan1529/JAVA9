@@ -1,4 +1,4 @@
-package com.practice;
+package com.praviteMethod;
 
 public class PrivateImpl implements PrivateInter {
 
@@ -7,5 +7,7 @@ public class PrivateImpl implements PrivateInter {
         System.out.println("Hello World");
         PrivateInter card = new PrivateImpl();
         card.cardName();
+       // PrivateInter.displayCardDetails();
+       // PrivateInter.test();
     }
 }
