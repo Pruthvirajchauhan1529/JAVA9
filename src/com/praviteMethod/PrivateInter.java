@@ -2,20 +2,20 @@ package com.praviteMethod;
 
 public interface PrivateInter {
 
-    default void cardName(){
+    default void card(){
         System.out.println("This is default method for card");
-        createCardId();
-        displayCardDetails();
+        createCard();
+        //displayCard();
     }
-    public static void test(){
+    static void test(){
         System.out.println("This is public static method");
-        displayCardDetails();
+        //displayCard();
     }
-    private void createCardId(){
+    private void createCard(){
         System.out.println("This is private method for card");
     }
-    static void displayCardDetails(){
+   /* private static void displayCard(){
         System.out.println("This is private static method for card");
         //createCardId();
-    }
+    }*/
 }

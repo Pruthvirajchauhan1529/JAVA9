@@ -5,7 +5,6 @@ import java.util.List;
 
 public class VarargsAnno {
     public static void main(String[] args) {
-
         //List<String> list = List.of("Pruthviraj","Prakash","Harsh");
         List<String> list = new ArrayList<>();
         list.add("Java");
